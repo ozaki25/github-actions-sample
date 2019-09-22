@@ -15,3 +15,5 @@ jobs:
       - name: test
         run: |
           yarn test
+      env:
+        CI: true
